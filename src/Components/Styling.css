@@ -1,0 +1,73 @@
+.screen {
+    width: 325px;
+  height: 730px;
+  background: #F7F8F9;
+  margin: 20px auto;
+  border: 1px solid #6C25FF4B;
+}
+
+.labelContainer>label {
+    position: absolute;
+    top:-13px;
+  left:4%;
+  z-index: 1;
+  background-color: #F7F8F9;
+  color: #6C25FF;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.inp {
+  background-color: transparent!important;
+}
+.req {
+  color: #DD4A3D;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 28px;
+}
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.number[type=number] {
+  -moz-appearance: textfield;
+}
+
+.desc {
+  color: "#1D2226";
+}
+
+.signupBtn {
+  background-color: #6C25FF!important;
+   border: none!important;
+    width: 100%;
+}
+.signinBtn {
+  background-color: #6C25FF4B!important;
+  border: none!important;
+  width: 100%;
+}
+
+.loginBtn {
+  background-color: #CBCBCB!important;
+   border: none!important;
+    width: 100%;
+}
+
+.profName {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.profid{
+  font-size: 14px;
+}
+
+.logo {
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+}
